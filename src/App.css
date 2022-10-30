@@ -2,6 +2,7 @@
   background: #ffffff;
   padding: 64px 112px 64px 112px;
 }
+/* main container*/
 .Main {
   display: flex;
   flex-direction: column;
@@ -60,7 +61,7 @@
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-#card{
+#card {
   position: relative;
 }
 #card .img-top {
@@ -111,6 +112,10 @@ section > a {
   border: 1px solid #eaecf0;
   border-radius: 8px;
   justify-content: center;
+  color: #101828;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
 }
 #slack,
 #twitter {
@@ -148,6 +153,7 @@ a:visited {
   width: 100%;
   height: 24px;
 }
+/* footer */
 .footer {
   display: flex;
   flex-direction: column;
@@ -195,7 +201,7 @@ a:visited {
 #Avatar-logo {
   display: none;
 }
-    /* tablet */
+/* tablet */
 @media only screen and (max-width: 896px) {
   .Main > a {
     width: 100%;
@@ -209,12 +215,12 @@ a:visited {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 0px;
+    padding-top: 20px;
     gap: 16px;
     height: 132px;
   }
 }
-    /* mobile screen */
+/* mobile screen */
 @media only screen and (max-width: 550px) {
   #Avatar-logo {
     display: block;
@@ -239,7 +245,10 @@ a:visited {
     padding: 0px 16px 0px 16px;
   }
   section > a {
-    width: 335px;
+    width: 325px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
   }
   .footer {
     padding: 32px 0px 32px 0px;

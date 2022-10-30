@@ -9,8 +9,8 @@ export default function Main() {
           <img id="profile__img" src="image/profile__img.svg" alt="profile" />
           <img src="image/onchanges.png" class="img-top" alt="Card Front" />
         </div>
-           <h2 id="twitter">Ellams George</h2>
-           <h2 id="slack">Ellams</h2>
+        <h2 id="twitter">Ellams George</h2>
+        <h2 id="slack">Ellams</h2>
         <div class="tooltip">
           <img id="share" src="image/sharebtn.png" />
           <span class="tooltiptext">Share link</span>
@@ -29,7 +29,7 @@ export default function Main() {
         </a>
 
         <a
-          title="this is where you find books about design and coding"
+          title="this is my twitter"
           id="btn__zuri"
           target="_blank"
           href="https://training.zuri.team/"
@@ -45,7 +45,7 @@ export default function Main() {
           Zuri Books
         </a>
         <a
-          title="this is where you find books about design and coding"
+          title="The HNG Python Book gives you the tips & guidelines you need to help you grow and advance your tech careers"
           id="book__python"
           target="_blank"
           href="https://books.zuri.team/python-for-beginners?ref_id=<ellams george>"
@@ -53,7 +53,7 @@ export default function Main() {
           Phyton Books
         </a>
         <a
-          title="this is where you get tested"
+          title=" an online platform that allows you to run background checks on coders "
           id="pitch"
           target="_blank"
           href="https://background.zuri.team"
@@ -61,7 +61,7 @@ export default function Main() {
           Background Check For Coders
         </a>
         <a
-          title="this is where you find books about design and coding"
+          title="The HNG Design Rules Book gives you the tips & guidelines"
           id="book__design"
           target="_blank"
           href="https://books.zuri.team/design-rules "
