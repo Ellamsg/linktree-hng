@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom"
 export default function Main() {
   return (
     <div className="Main">
@@ -68,6 +68,14 @@ export default function Main() {
         >
           Design Books
         </a>
+
+        <Link
+          title="The HNG Design Rules Book gives you the tips & guidelines"
+          id="Contact"
+          to="/Contact"
+        >
+         Contact
+        </Link>
       </section>
       {/*section logo*/}
       <div className="social-section">
@@ -76,6 +84,7 @@ export default function Main() {
           <img src="image/icon.svg" />
         </div>
       </div>
+      
     </div>
   );
 }

@@ -5,6 +5,7 @@ export default function Footer(){
  return(
    
     <div className="footer">
+      
      {/*footer container*/}
     <div className="container ">
       <div className="content">
