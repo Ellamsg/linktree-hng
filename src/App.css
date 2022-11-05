@@ -256,6 +256,9 @@ a:visited {
   border: 1px solid #1570ef;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 }
+#btn_submit:hover {
+  background-color: #175cd3;
+}
 textarea {
   height: 132px;
   padding-top: 15px;
@@ -287,6 +290,7 @@ textarea {
   flex-direction: column;
   justify-content: center;
   width: 98%;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 }
 .form--marketing {
   display: flex;
@@ -298,6 +302,21 @@ textarea {
   width: 100%;
 }
 
+textarea:focus::placeholder {
+  color: #101828;
+}
+textarea:focus {
+  outline: none !important;
+  border: 1px solid #84caff;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #d1e9ff;
+}
+input:focus {
+  outline: none !important;
+  border: 1px solid #84caff;
+}
+input:focus::placeholder {
+  color: #101828;
+}
 .form-input-1,
 .form-input,
 textarea {
@@ -424,7 +443,7 @@ textarea,
   }
 
   .contact {
-    padding: 0px 23px 0px 12px;
+    padding: 0px 28px 0px 12px;
   }
   .content2 {
     height: 684px;

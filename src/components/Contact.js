@@ -26,7 +26,7 @@ export default function Contact() {
                 <div className="input-form">
                   <label className="label">last name </label>
                   <input
-                  required
+                    required
                     type="name"
                     placeholder="Enter your last name"
                     className="form-input-1"
@@ -38,8 +38,8 @@ export default function Contact() {
               <div className="input-form mail">
                 <label className="label">Email</label>
                 <input
-                required
-                className="form-input-1"
+                  required
+                  className="form-input-1"
                   type="email"
                   placeholder="yourname@email.com"
                   id="email"
@@ -48,9 +48,9 @@ export default function Contact() {
               <div className="label">
                 <label className="label">Message</label>
                 <textarea
-                  
+                  required
                   id="message"
-                  placeholder="Hello there, this is some text in a text area"
+                  placeholder="send me a message and i'll reply as soon as possible"
                 ></textarea>
               </div>
             </div>
@@ -58,9 +58,8 @@ export default function Contact() {
               <div className="check">
                 <input type="checkbox" />
                 <label id="checklab">
-                   You agree to providing your contact to ellams george who may
+                  You agree to providing your contact to ellams george who may
                   contact you
-                  
                 </label>
               </div>
 
