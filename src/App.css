@@ -218,7 +218,6 @@ a:visited {
   color: #475467;
 }
 .contact {
-
   padding: 0px 32px 0px 32px;
   display: flex;
   flex-direction: row;
@@ -263,7 +262,7 @@ textarea {
   resize: none;
   appearance: none;
 }
-.check{
+.check {
   display: flex;
   flex-direction: row;
   gap: 7px;
@@ -273,7 +272,6 @@ textarea {
   flex-direction: row;
   gap: 45px;
   width: 98%;
- 
 }
 .input-form {
   width: 98%;
@@ -283,7 +281,6 @@ textarea {
   font-size: 16px;
   line-height: 20px;
   color: #344054;
-
 }
 textarea {
   display: flex;
@@ -313,7 +310,9 @@ textarea {
 
 label,
 .form-input,
-.form-input-1,textarea,::placeholder {
+.form-input-1,
+textarea,
+::placeholder {
   color: #667085;
   font-weight: 400;
   font-size: 16px;
@@ -422,21 +421,19 @@ label,
   }
   .content-contact1 {
     width: 100%;
-  
   }
-  
+
   .contact {
     padding: 0px 23px 0px 12px;
   }
   .content2 {
     height: 684px;
   }
- 
-  .radio{
+
+  .radio {
     padding-top: 20px;
-  
   }
-  #btn_submit{
+  #btn_submit {
     width: 103%;
   }
 }
