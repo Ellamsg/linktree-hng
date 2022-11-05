@@ -7,7 +7,7 @@ export default function Contact() {
         <div className="content2">
           <div className="contact-top">
             <h1>Contact Me</h1>
-            <p>hey there contact me about anything you have in mind</p>
+            <p>Hi there contact me about anything you have in mind</p>
           </div>
           <form className="forms">
             <div className="form">
@@ -15,37 +15,40 @@ export default function Contact() {
                 <div className="input-form">
                   <label className="label">First Name</label>
                   <input
-                    type="email"
-                    placeholder="Email address"
+                    required
+                    type="firstname"
+                    placeholder="Enter your first name"
                     className="form-input-1"
-                    name="email"
+                    name="first_name"
                     id="first_name"
                   />
                 </div>
                 <div className="input-form">
                   <label className="label">last name </label>
                   <input
-                    type="password"
-                    placeholder="Password"
+                  required
+                    type="name"
+                    placeholder="Enter your last name"
                     className="form-input-1"
-                    name="password"
+                    name="last_name"
                     id="last_name"
                   />
                 </div>
               </div>
-              <div className="input-form">
+              <div className="input-form mail">
                 <label className="label">Email</label>
                 <input
-                  type="password"
-                  placeholder="Confirm password"
-                  className="form-input"
-                  name="passwordConfirm"
+                required
+                className="form-input-1"
+                  type="email"
+                  placeholder="yourname@email.com"
                   id="email"
                 />
               </div>
               <div className="label">
                 <label className="label">Message</label>
                 <textarea
+                  
                   id="message"
                   placeholder="Hello there, this is some text in a text area"
                 ></textarea>
@@ -54,9 +57,10 @@ export default function Contact() {
             <div className="radio">
               <div className="check">
                 <input type="checkbox" />
-                <label>
-                  You agree to providing your contact to ellams george who may
+                <label id="checklab">
+                   You agree to providing your contact to ellams george who may
                   contact you
+                  
                 </label>
               </div>
 
