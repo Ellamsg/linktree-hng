@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from './components/Footer';
 import Main from './components/Main';
-import Contact from './components/Contact';
+import Contact from './components/contact';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 import './App.css';
 
@@ -15,7 +15,7 @@ function App() {
            <Route exact path="/">
            <Main/>
            </Route>
-           <Route  path="/Contact">
+           <Route  path="/contact">
              <Contact />
            </Route>
         </Switch>
