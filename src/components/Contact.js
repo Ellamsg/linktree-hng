@@ -27,7 +27,7 @@ export default function Contact() {
                   <label className="label">last name </label>
                   <input
                     required
-                    type="name"
+                    type="lastname"
                     placeholder="Enter your last name"
                     className="form-input-1"
                     name="last_name"
