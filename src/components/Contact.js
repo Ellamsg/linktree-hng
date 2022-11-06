@@ -1,5 +1,5 @@
 import React from "react";
-
+const MyName = "Ellams George"
 export default function Contact() {
   return (
     <div className="contact">
@@ -58,7 +58,7 @@ export default function Contact() {
               <div className="check">
                 <input type="checkbox" />
                 <label id="checklab">
-                  You agree to providing your contact to ellams george who may
+                  You agree to providing your contact to {MyName} who may
                   contact you
                 </label>
               </div>
