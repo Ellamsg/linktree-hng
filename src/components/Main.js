@@ -74,7 +74,7 @@ export default function Main() {
           id="Contact"
           to="/Contact"
         >
-         Contact 
+         Contact Me
         </Link>
       </section>
       {/*section logo*/}
