@@ -70,8 +70,8 @@ export default function Main() {
         </a>
 
         <Link
+         id="contact "
           title="The HNG Design Rules Book gives you the tips & guidelines"
-          id="contact"
           to="/contact"
         >
          Contact Me
