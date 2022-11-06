@@ -13,7 +13,7 @@ export default function Contact() {
             <div className="form">
               <div className="email">
                 <div className="input-form">
-                  <label className="label">First Name</label>
+                  <label  htmlFor="firstname" className="label">First Name</label>
                   <input
                     required
                     type="firstname"
@@ -24,7 +24,7 @@ export default function Contact() {
                   />
                 </div>
                 <div className="input-form">
-                  <label className="label">last name </label>
+                  <label  htmlFor="lastname" className="label">last name </label>
                   <input
                     required
                     type="lastname"
@@ -36,7 +36,7 @@ export default function Contact() {
                 </div>
               </div>
               <div className="input-form mail">
-                <label className="label">Email</label>
+                <label  htmlFor="email" className="label">Email</label>
                 <input
                   required
                   className="form-input-1"
@@ -46,7 +46,7 @@ export default function Contact() {
                 />
               </div>
               <div className="label">
-                <label className="label">Message</label>
+                <label  htmlFor="message" className="label">Message</label>
                 <textarea
                   required
                   id="message"
@@ -57,7 +57,7 @@ export default function Contact() {
             <div className="radio">
               <div className="check">
                 <input type="checkbox" />
-                <label id="checklab">
+                <label  htmlFor="checkbox" id="checklab">
                   You agree to providing your contact to {MyName} who may
                   contact you
                 </label>
